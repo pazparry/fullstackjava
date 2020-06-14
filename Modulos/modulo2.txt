@@ -1,0 +1,48 @@
+Diríjase a la carpeta en la que se encuentra el repositorio
+- Verique los archivos existentes hasta el momento, y su tamaño total
+cd c:\fullstackjava
+- Cree una carpeta de nombre modulos, y en ella un documento de nombre modulo1.txt.
+dir
+mkdir modulos
+git status
+
+- Agregar los archivos modificados y/o creados al repositorio
+git add .
+
+- Aplicar los cambios realizados usando el mensaje “Se agrega el módulo 1”
+git commit -m "Se agrega el modulo 1"
+
+- Despliegue el historial de cambios
+git log
+
+- Crear en el mismo directorio un archivo de nombre modulo2.txt
+
+- Agregue el nuevo archivo al repositorio y suba los cambios con el mensaje “Agregada la
+información del módulo 2”.
+git add .
+git commit -m “Agregada la información del módulo 2”.
+git status
+
+- Crear en el mismo directorio un archivo de nombre modulo3.txt, con el siguiente
+contenido:
+
+- Agregue el nuevo archivo al repositorio y suba los cambios con el mensaje “Añadido el
+material del módulo 3”. 
+git add .
+git commit -m "añadido el material del modulo3"
+git status
+
+- En el archivo contenidos.txt, agregue al final del documento, en una nueva línea, el texto
+“Módulo 5: Desarrollo de aplicaciones JEE con Spring Framework”.
+
+- Agregar los cambios al repositorio, y aplique los cambios usando el mensaje “Temario
+del curso completo”.
+git add
+git status 
+git commit -m "temario del curso completo"
+
+- Muestre el contenido del directorio, y su tamaño total.
+dir
+
+- Finalmente, despliegue por última vez el historial de cambios del repositorio. 
+git log
