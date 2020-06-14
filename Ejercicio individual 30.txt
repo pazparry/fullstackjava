@@ -1,0 +1,51 @@
+Realice, entonces, las siguientes tareas:
+• Sitúese en la carpeta en la que desee crear el repositorio.
+
+cd c:
+
+• Cree una carpeta, y dentro de la misma un repositorio, ambos con el nombre
+fullstackjava
+
+mkdir fullstackjava 
+
+• Genere una consulta que permite verificar el estado del repositorio
+
+git status
+
+• Cree un documento de texto de nombre contenidos.txt
+documento creado
+
+•Validar que el contenido ingresado esté efectivamente cargado. Verifique además el
+tamaño del archivo y sus permisos de acceso.
+
+Git log
+
+• Añada el archivo al repositorio.
+Git add .
+
+• Aplique los cambios realizados sobre el repositorio, usando como mensaje “Primera
+versión del temario subida a repositorio”.
+
+git commit -m “Primera versión del temario subida a repositorio”
+
+• Añada una nueva línea al final del archivo, con el contenido “Módulo 4: Desarrollo de
+aplicaciones web dinámicas con Java”.
+
+ingresar al contenidos.txt y agregar el modulo 4
+
+• Verificar qué cambios existen en el repositorio que deban ser almacenados.
+
+Git status
+
+• Aplicar nuevamente los cambios en el repositorio, esta vez con el mensaje “Versión
+actualizada del contenido”.
+Git add .
+Git commit -m "Versión actualizada del contenido"
+
+• Ver el registro de cambios creados sobre el repositorio.
+
+Git log
+
+• Finalmente, validar el estado del repositorio.
+
+Git status
